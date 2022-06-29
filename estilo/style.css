@@ -67,7 +67,7 @@ header > p {
 nav{
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.379);
+    box-shadow: 0px 7px 7px rgba(11, 10, 10, 0.379);
 }
 
 nav > a{
@@ -82,6 +82,13 @@ nav > a{
 nav >a:hover{
     background-color: var(--cor4);
     color: var(--cor3);
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
 }
 
 main{
@@ -193,14 +200,14 @@ aside > h3{
 footer{
     background-color: var(--cor5);
     color: white;
-    text-align: center;
-    font-size: 0.8;
-    padding: 5px;
+    text-align: right;
+    font-size: 20px;
+    padding: 15px;
 
 }
 
 footer a{
-    color: var(--cor1);
+    color:#c5ebd6;
     font-weight: bold;
     text-decoration: none;
 }
